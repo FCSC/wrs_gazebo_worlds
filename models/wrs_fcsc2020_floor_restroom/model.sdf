@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 
 <sdf version="1.5">
-  <model name="wrs_fcsc2020_frames_wood">
+  <model name="wrs_fcsc2020_floor_restroom">
     <static>1</static>
     <link name="link">
       <visual name="visual">
         <geometry>
-          <mesh>
-            <uri>model://wrs_fcsc2020_frames_wood/meshes/wrs_fcsc2020_frames_wood.dae</uri>
-          </mesh>
+          <box>
+            <size>2 2 0.002</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -17,13 +17,6 @@
           </script>
         </material>
       </visual>
-      <collision name="collision">
-        <geometry>
-          <mesh>
-            <uri>model://wrs_fcsc2020_frames_wood/meshes/wrs_fcsc2020_frames_wood.dae</uri>
-          </mesh>
-        </geometry>
-      </collision>
     </link>
   </model>
 </sdf>

@@ -44,38 +44,36 @@
       <pose>1 7 0 0 0 0</pose>
     </include>
 
-    <model name="wrs_fcsc2020_floor_restroom">
-      <include>
-        <uri>model://wrs_fcsc2020_floor_home</uri>
-        <pose>-2 0 0 0 0 0</pose>
-      </include>
-    </model>
+    <include>
+      <uri>model://wrs_fcsc2020_floor_restroom</uri>
+      <pose>-2 0 0 0 0 0</pose>
+    </include>
 
     <model name="wrs_fcsc2020_ceiling_restroom">
       <include>
         <uri>model://wrs_fcsc2020_floor_home</uri>
-        <pose>-2 0 2.4 0 0 0</pose>
+        <pose>-2 0 2 0 0 0</pose>
       </include>
     </model>
 
     <model name="wrs_fcsc2020_wall_restroom_a">
       <include>
         <uri>model://wrs_fcsc2020_wall_restroom</uri>
-        <pose>-2 -1 1.2 0 0 1.57079632679</pose>
+        <pose>-2 -1 1 0 0 1.57079632679</pose>
       </include>
     </model>
 
     <model name="wrs_fcsc2020_wall_restroom_b">
       <include>
         <uri>model://wrs_fcsc2020_wall_restroom</uri>
-        <pose>-3 0 1.2 0 0 0</pose>
+        <pose>-3 0 1 0 0 0</pose>
       </include>
     </model>
 
     <model name="wrs_fcsc2020_wall_restroom_c">
       <include>
         <uri>model://wrs_fcsc2020_wall_restroom</uri>
-        <pose>-2 1 1.2 0 0 1.57079632679</pose>
+        <pose>-2 1 1 0 0 1.57079632679</pose>
       </include>
     </model>
 
