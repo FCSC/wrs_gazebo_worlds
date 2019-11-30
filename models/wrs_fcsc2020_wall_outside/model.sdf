@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+  <model name="wrs_fcsc2020_wall_outside">
+    <static>1</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>2 0.002 0.6</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/White</name>
+          </script>
+        </material>
+        <transparency>0.9</transparency>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <box>
+            <size>2 0.002 0.6</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+  <model name="wrs_fcsc2020_floor_playground">
+    <static>1</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>2</radius>
+            <length>0.002</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/Grass</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

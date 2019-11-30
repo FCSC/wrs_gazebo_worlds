@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+  <model name="wrs_fcsc2020_customers">
+    <static>1</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://wrs_fcsc2020_customers/meshes/wrs_fcsc2020_customers.dae</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+            <name>Gazebo/DarkGrey</name>
+          </script>
+        </material>
+      </visual>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://wrs_fcsc2020_customers/meshes/wrs_fcsc2020_customers.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
