@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 
 <package format="2">
-  <name>nrp_gazebo_worlds</name>
+  <name>wrs_gazebo_worlds</name>
   <version>1.0.0</version>
   <description>The 'wrs_gazebo_worlds' ROS package provides a collection of Gazebo worlds and models created using the official CAD data of the World Robot Summit.</description>
 
