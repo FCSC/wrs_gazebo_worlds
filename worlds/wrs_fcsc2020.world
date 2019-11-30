@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+
+<sdf version="1.5">
+
+  <world name="wrs_fcsc2020">
+
+    <scene>
+      <ambient>0.6 0.6 0.6 1</ambient>
+      <sky>
+        <sunrise />
+        <clouds>
+          <speed>0.6</speed>
+        </clouds>
+      </sky>
+    </scene>
+
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -9.8</gravity>
+    </physics>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_floor_home</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_floor_inside</uri>
+      <pose>4 4 -0.001 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_floor_outside</uri>
+      <pose>4 4 -0.002 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_floor_playground</uri>
+      <pose>1 7 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_floor_restroom</uri>
+      <pose>-2 0 0 0 0 0</pose>
+    </include>
+
+    <model name="wrs_fcsc2020_ceiling_restroom">
+      <include>
+        <uri>model://wrs_fcsc2020_floor_home</uri>
+        <pose>-2 0 2 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_restroom_a">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_restroom</uri>
+        <pose>-2 -1 1 0 0 1.57079632679</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_restroom_b">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_restroom</uri>
+        <pose>-3 0 1 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_restroom_c">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_restroom</uri>
+        <pose>-2 1 1 0 0 1.57079632679</pose>
+      </include>
+    </model>
+
+    <include>
+      <uri>model://wrs_fcsc2020_floor_eatin</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_frames_steel</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_frames_wood</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_walls_inside</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_shelves_products</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_shelves_display</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_pots</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_plants</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_customers</uri>
+    </include>
+
+    <include>
+      <uri>model://wrs_fcsc2020_bikes</uri>
+    </include>
+
+    <model name="wrs_fcsc2020_stool_a">
+      <include>
+        <uri>model://wrs_fcsc2020_stool</uri>
+        <pose>7.2 2.4 0.6 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_stool_b">
+      <include>
+        <uri>model://wrs_fcsc2020_stool</uri>
+        <pose>7.5 1.5 0.6 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_stool_c">
+      <include>
+        <uri>model://wrs_fcsc2020_stool</uri>
+        <pose>8.1 2.2 0.6 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_lamp_a">
+      <include>
+        <uri>model://wrs_fcsc2020_lamp</uri>
+        <pose>6.2 1.6 3 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_lamp_b">
+      <include>
+        <uri>model://wrs_fcsc2020_lamp</uri>
+        <pose>7.52 2.47 3 0 0 0</pose>
+      </include>
+    </model>
+
+    <include>
+      <uri>model://wrs_fcsc2020_toilet</uri>
+    </include>
+
+    <model name="wrs_fcsc2020_wall_outside_a">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_outside</uri>
+        <pose>0 -1 0.3 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_outside_b">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_outside</uri>
+        <pose>2 -1 0.3 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_outside_c">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_outside</uri>
+        <pose>4 -1 0.3 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_outside_d">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_outside</uri>
+        <pose>6 -1 0.3 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_outside_e">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_outside</uri>
+        <pose>8 -1 0.3 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_outside_f">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_outside</uri>
+        <pose>0 1 0.3 0 0 0</pose>
+      </include>
+    </model>
+
+    <model name="wrs_fcsc2020_wall_outside_g">
+      <include>
+        <uri>model://wrs_fcsc2020_wall_outside</uri>
+        <pose>9 0 0.3 0 0 1.57079632679</pose>
+      </include>
+    </model>
+
+    <include>
+      <uri>model://wrs_fcsc2020_walls_filler</uri>
+    </include>
+
+  </world>
+
+</sdf>

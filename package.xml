@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+
+<package format="2">
+  <name>wrs_gazebo_worlds</name>
+  <version>1.0.0</version>
+  <description>The 'wrs_gazebo_worlds' ROS package provides a collection of Gazebo worlds and models created using the official CAD data of the World Robot Summit.</description>
+
+  <maintainer email="lotfi.elhafi@em.ci.ritsumei.ac.jp">Lotfi El Hafi</maintainer>
+  <license>MIT</license>
+  <url type="website">https://worldrobotsummit.org/</url>
+  <author email="lotfi.elhafi@em.ci.ritsumei.ac.jp">Lotfi El Hafi</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export></export>
+</package>
