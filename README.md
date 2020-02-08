@@ -21,13 +21,13 @@ export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:/path/to/wrs_gazebo_worlds/models/
 Using HTTPS:
 
 ```shell
-git submodule add -b master --name wrs_gazebo_worlds https://gitlab.com/naripa/wrs_gazebo_worlds.git catkin_ws/src/wrs_gazebo_worlds
+git submodule add -b master --name wrs_gazebo_worlds https://github.com/FCSC/wrs_gazebo_worlds.git catkin_ws/src/wrs_gazebo_worlds
 ```
 
 Using SSH:
 
 ```shell
-git submodule add -b master --name wrs_gazebo_worlds git@gitlab.com:naripa/wrs_gazebo_worlds.git catkin_ws/src/wrs_gazebo_worlds
+git submodule add -b master --name wrs_gazebo_worlds git@github.com:FCSC/wrs_gazebo_worlds.git catkin_ws/src/wrs_gazebo_worlds
 ```
 
 Make sure that the `master` branch is tracked.
